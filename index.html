@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="tabs">
+        <li   data-tab-target="#home" class="active tab">Home</li>
+        <li  data-tab-target="#info" class="tab">Info</li>
+        <li   data-tab-target="#about" class="tab">About</li>
+    </ul> 
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active"> 
+            <h1>Home</h1>
+            <p>This is the Home Tab!</p>
+        </div>
+        <div id="info" data-tab-content>
+            <h1>Info</h1>
+            <p>This is the Info Tab!</p>
+        </div>
+        <div id="about" data-tab-content>
+            <h1>About</h1>
+            <p>This is the About Tab!</p>
+        </div>
+    </div>
+    <div class="search-content">
+        <div class="search">
+            <input type="text" placeholder="enter the name..." id="input" onkeyup="searchFun()">
+        </div>
+        <div class="table">
+            <table width=1000 border = 1 cellspacing = 0 cellpadding = 5 id="table">
+                <tr>
+                    <th >Name</th>
+                    <th >Dept</th>
+                    <th >college</th>
+                </tr>
+                <tr>
+                    <td>Akash</td>
+                    <td>IT</td>
+                    <td>Mookambigai    college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Ramesh</td>
+                    <td>CSE</td>
+                    <td>Ramakrishna college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Hari Prasath</td>
+                    <td>IT</td>
+                    <td>PSNA</td>
+                </tr>
+                <tr>
+                    <td>Akash K</td>
+                    <td>ECE</td>
+                    <td>ABC college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Robin</td>
+                    <td>IT</td>
+                    <td>Mookambigai    college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Ganesh</td>
+                    <td>CSE</td>
+                    <td>Ramakrishna college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Muhammad</td>
+                    <td>IT</td>
+                    <td>PSNA</td>
+                </tr>
+                <tr>
+                    <td>Firhoun</td>
+                    <td>ECE</td>
+                    <td>ABC college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Harish</td>
+                    <td>IT</td>
+                    <td>Mookambigai    college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Kumar</td>
+                    <td>CSE</td>
+                    <td>Ramakrishna college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Lawrence</td>
+                    <td>IT</td>
+                    <td>PSNA</td>
+                </tr>
+                <tr>
+                    <td>Vinoth</td>
+                    <td>ECE</td>
+                    <td>ABC college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Babu</td>
+                    <td>IT</td>
+                    <td>Mookambigai    college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Suresh</td>
+                    <td>CSE</td>
+                    <td>Ramakrishna college of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Uthappa</td>
+                    <td>IT</td>
+                    <td>PSNA</td>
+                </tr>
+                <tr>
+                    <td>Manoj</td>
+                    <td>ECE</td>
+                    <td>ABC college of Engineering</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
